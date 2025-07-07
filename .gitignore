@@ -1,4 +1,4 @@
-echo "# Ignore environment variables
+# Ignore environment variables
 **/.env
 **/.env.local
 **/.env.*.local
@@ -14,7 +14,7 @@ __pycache__/
 # Virtual environment
 **/venv/
 **/env/
-**/.venv/   
+**/.venv/
 
 # Logs and database files
 **/*.log
@@ -49,7 +49,7 @@ coverage.xml
 .nyc_output/
 
 # Miscellaneous
-*.bak" > .gitignore
+*.bak
 .DS_Store
 
 # ignore pycache
